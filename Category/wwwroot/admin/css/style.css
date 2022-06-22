@@ -1,0 +1,37 @@
+.techologies .boxes li a {
+  text-decoration: none;
+}
+
+.techologies .home {
+  position: relative;
+}
+
+.techologies .home .box1 {
+  background-color: white;
+  position: absolute;
+  top: 100%;
+  left: 0%;
+  width: 150px;
+  margin-top: 10px;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.techologies .home .box1 li {
+  margin-top: 10px;
+  padding-top: 5px;
+}
+
+.techologies .home .box1 li a {
+  color: black;
+}
+
+.techologies .home .box1 li a:hover {
+  color: #FFC311;
+}
+
+.techologies .home:hover .box1 {
+  opacity: 1;
+  visibility: visible;
+}
+/*# sourceMappingURL=style.css.map */

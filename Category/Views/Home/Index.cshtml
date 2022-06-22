@@ -1,0 +1,23 @@
+﻿@using Category.ViewModel
+@model HomeVM
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <div class="techologies d-flex">
+      <ul class="row boxes list-unstyled">
+                @foreach (var item in Model.SubCategories)
+                {
+                    <li class="home">
+                        <a style="color: #FFC311;" href="#">@item.Name</a><br>
+                        <ul class="box1 list-unstyled">
+                            <li><a href="#">@item.Category.Name</a></li>
+                        </ul>
+                    </li>
+                }
+        </ul>
+    </div>
+</div>
+
+
